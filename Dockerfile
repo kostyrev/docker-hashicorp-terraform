@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.11.14
+FROM hashicorp/terraform:0.12.16
 
 RUN apk add --no-cache --virtual .deps bash make
 
